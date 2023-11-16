@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  background: lightblue;
+}
+
+.main-div {
+  margin: 0;
+  padding: 0;
+  background: whitesmoke;
+  border: 3px solid #000;
+  border-radius: 8px;
+  padding: 24px 48px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.solid {
+  margin-top: 8px solid #ccc;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  color: cornflowerblue;
+  text-decoration: none;
+  font-size: larger;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+}
+
+.social-links {
+  display: inline-block;
+}
+
+.social-link {
+  display: inherit;
+  vertical-align: middle;
+}
+.social-link img, a {
+  display: inherit;
+  vertical-align: middle;
+}
